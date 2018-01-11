@@ -1,0 +1,20 @@
+{
+    "name": "hadi/csrf",
+    "description": "CSRF protection class",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Habib Hadi",
+            "email": "me@habibhadi.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {"Hadi\\": "src/"}
+    },
+    "minimum-stability": "stable",
+    "version": "1.0.0"
+}
